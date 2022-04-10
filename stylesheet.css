@@ -1,0 +1,299 @@
+@font-face {
+  font-family: BostonRegular; /* CAN BE ANYTHING YOU WANT */
+  src: url("font/BostonSemiBold.otf");
+}
+
+@font-face {
+  font-family: BostonBold; /* CAN BE ANYTHING YOU WANT */
+  src: url("font/BostonBold.otf");
+}
+
+.boldfont {
+  font-family: BostonBold;
+}
+
+body {
+  background-color: #065fc5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+
+  font-family: BostonRegular;
+}
+
+.mobile {
+  position: absolute;
+  left: 50%;
+}
+
+.qr-code {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 250px;
+  height: 250px;
+  padding: 8px;
+
+  background-color: white;
+  border-radius: 15px;
+}
+
+.qr-image {
+  width: 250px;
+}
+
+.site-header {
+  font-size: 28px;
+  color: white;
+
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.site-header h1 {
+  font-size: 35px;
+  font-family: BostonBold;
+}
+
+.site-content-list {
+  margin-left: auto;
+  margin-right: auto;
+
+  height: 500px;
+}
+
+.site-content-list ul {
+  list-style-type: none;
+
+  height: 100%;
+}
+
+.site-content-list ul li p {
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+
+  color: white;
+}
+
+.site-content-list .logout {
+  padding-top: 30px;
+}
+
+.site-content-list .logout a {
+  background-color: #04448e;
+}
+
+.site-content-list ul li a {
+  text-decoration: none;
+  padding: 15px 20px;
+
+  background-color: #3d82d2;
+  border-radius: 5px;
+
+  color: white;
+  font-size: 25px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 65%;
+  max-width: 250px;
+  display: block;
+  text-align: center;
+}
+
+.site-content-list ul li {
+  margin-top: 35px;
+}
+
+.site-content-form {
+  width: 230px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-content-form ul {
+  list-style-type: none;
+}
+
+.site-content-form input {
+  width: 250px;
+
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+
+  margin-bottom: 15px;
+
+  font-size: 22px;
+  padding: 5px 10px;
+}
+
+.site-php-output {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  color: white;
+
+  text-align: center;
+}
+
+.mini-header {
+  text-align: left;
+  color: white;
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+.scan-video-input {
+  padding: 30px;
+}
+
+.scan-video-input video {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+#adminSelection {
+  width: 250px;
+
+  padding: 10px;
+
+  margin-bottom: 20px;
+
+  background-color: #202020;
+  font-family: BostonBold;
+  font-size: 18px;
+  color: white;
+}
+
+.admin-content-form {
+  width: 100%;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.admin-content-form-ul {
+  list-style-type: none;
+  width: 250px;
+}
+
+.admin-content-form-ul input {
+  width: 100%;
+  padding: 10px 5px 10px 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+#actionSelection {
+  margin-top: 10px;
+  width: 100%;
+
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+#togglescan {
+  cursor: pointer;
+}
+
+.groups-list {
+  margin-left: auto;
+  margin-right: auto;
+  width: 290px;
+}
+
+.groups-list ul {
+  list-style-type: none;
+}
+
+.groups-list li {
+  background-color: #013c81;
+
+  cursor: pointer;
+  border-radius: 5px;
+
+  margin-bottom: 25px;
+}
+
+.groups-list td {
+  padding: 15px 0px 15px 20px;
+  color: white;
+
+  font-size: 22px;
+}
+
+.groups-configure-input {
+  width: 100%;
+
+  font-size: 22px;
+  color: white;
+
+  background-color: transparent;
+  outline: 0;
+  border-width: 0 0 3px;
+  border-color: white;
+
+  transition: 0.2s;
+}
+
+.groups-configure-input:focus {
+  transition: 0.2s;
+  border-color: green
+}
+
+.groups-configure-submit {
+  width: 100%;
+
+  font-size: 22px;
+  color: white;
+
+  border: none;
+  outline: none;
+  border-radius: 5px;
+
+  padding: 10px 5px;
+
+  background-color: #013c81;
+
+  cursor: pointer;
+
+}
+
+#userTag {
+  background-color: white;
+  color: black;
+  padding: 2px 5px;
+  border-radius: 4px;
+  margin-right: 8px;
+  margin-top: 10px;
+}
+
+#webcam {
+  width: 300px;
+}
+
+.groups-mini-title-list {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.groups-configure-header-title-lol {
+  color: white;
+  font-size: 20px;
+
+  padding-top: 50px;
+}
